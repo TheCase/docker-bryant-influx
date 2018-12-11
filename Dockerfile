@@ -15,6 +15,6 @@ ENV INFLUXUSER admin
 ENV INFLUXPASS admin
 ENV INFLUXDB   bryant 
 
-EXPOSE 8080
+EXPOSE 8888
 
 CMD [ "python", "/opt/proxy.py" ]
